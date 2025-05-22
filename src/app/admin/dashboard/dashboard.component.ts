@@ -30,7 +30,7 @@ export class DashboardComponent implements OnInit
   ngOnInit()
   {
     this.Designation = 'Team Leader';
-    this.Username = 'Scott Smith';
+    this.Username = 'Andry Bondarenko';
     this.NoOfTeamMembers = 67;
     this.TotalCostOfAllProjects = 240;
     this.PendingTasks = 15;
@@ -48,7 +48,7 @@ export class DashboardComponent implements OnInit
 
     this.Projects = ['Project A', 'Project B', 'Project C', 'Project D'];
 
-    for (var i = 2019; i >= 2010; i--)
+    for (var i = 2025; i >= 2020; i--)
     {
       this.Years.push(i);
     }
@@ -59,7 +59,7 @@ export class DashboardComponent implements OnInit
       {
         Region: 'East',
         Members: [
-          { ID: 1, Name: 'Ford', Status: 'Available' },
+          { ID: 1, Name: 'Oleksandr', Status: 'Available' },
           { ID: 2, Name: 'Miller', Status: 'Available' },
           { ID: 3, Name: 'Jones', Status: 'Busy' },
           { ID: 4, Name: 'James', Status: 'Busy' },
@@ -69,25 +69,25 @@ export class DashboardComponent implements OnInit
         Region: 'West',
         Members: [
           { ID: 5, Name: 'Anna', Status: 'Available' },
-          { ID: 6, Name: 'Arun', Status: 'Available' },
-          { ID: 7, Name: 'Varun', Status: 'Busy' },
+          { ID: 6, Name: 'Artur', Status: 'Available' },
+          { ID: 7, Name: 'Vahtang', Status: 'Busy' },
           { ID: 8, Name: 'Jasmine', Status: 'Busy' },
         ],
       },
       {
         Region: 'South',
         Members: [
-          { ID: 9, Name: 'Krishna', Status: 'Available' },
-          { ID: 10, Name: 'Mohan', Status: 'Available' },
-          { ID: 11, Name: 'Raju', Status: 'Busy' },
-          { ID: 12, Name: 'Farooq', Status: 'Busy' },
+          { ID: 9, Name: 'Kristina', Status: 'Available' },
+          { ID: 10, Name: 'Maksym', Status: 'Available' },
+          { ID: 11, Name: 'Ram', Status: 'Busy' },
+          { ID: 12, Name: 'Farad', Status: 'Busy' },
         ],
       },
       {
         Region: 'North',
         Members: [
-          { ID: 13, Name: 'Jacob', Status: 'Available' },
-          { ID: 14, Name: 'Smith', Status: 'Available' },
+          { ID: 13, Name: 'Jonh', Status: 'Available' },
+          { ID: 14, Name: 'Smitd', Status: 'Available' },
           { ID: 15, Name: 'Jones', Status: 'Busy' },
           { ID: 16, Name: 'James', Status: 'Busy' },
         ],
